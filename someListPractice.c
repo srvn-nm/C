@@ -41,7 +41,7 @@ int main() {
         int j=size_b;
         for (int i = size_a; i >-1 ; i--) {
             if (j=size_b){
-                c[k].adad=((a[i].adad+b[j].adad)%10;
+                c[k].adad=((a[i].adad+b[j].adad)%10);
             } else{
                 c[k].adad=((a[i].adad+b[j].adad)%10+((a[i+1].adad+b[j+1].adad)-((a[i+1].adad+b[j+1].adad)%10)))%10;
             }
@@ -52,7 +52,7 @@ int main() {
         int j=size_a;
         for (int i = size_b; i >-1 ; i--) {
             if (j=size_a){
-                c[k].adad=((a[j].adad+b[i].adad)%10;
+                c[k].adad=((a[j].adad+b[i].adad)%10);
             } else{
                 c[k].adad=((a[j].adad+b[i].adad)%10+((a[j+1].adad+b[i+1].adad)-((a[j+1].adad+b[i+1].adad)%10)))%10;
             }
