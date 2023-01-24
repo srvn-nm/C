@@ -80,9 +80,9 @@ int main()
     g.addEdge(5, 1, 0);
     g.addEdge(5, 4, 6);
     g.addEdge(4, 1, 6);
- 
+
     g.shortestPath(1);
-    
+ 
     sleep(1000);
     return 0;
 }
