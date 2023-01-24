@@ -1,4 +1,6 @@
-#include <bits/stdc++.h/dos.h>
+#include <bits/stdc++.h>
+#include <iostream>
+#include <direct.h>
 using namespace std;
 #define INF 0x3f3f3f3f
  
