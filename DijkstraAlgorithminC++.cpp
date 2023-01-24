@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#include <iostream>
-#include <direct.h>
+#include <thread>
+#include <chrono>
 using namespace std;
 #define INF 0x3f3f3f3f
  
@@ -82,7 +82,7 @@ int main()
     g.addEdge(4, 1, 6);
  
     g.shortestPath(1);
- 
-    delay(10000000);
+    
+    this_thread::sleep_for(chrono::milliseconds(10000000));
     return 0;
 }

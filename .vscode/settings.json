@@ -17,5 +17,9 @@
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "DockerRun.DisableDockerrc": true,
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "*.html": "html",
+    "chrono": "cpp"
+  }
 }
