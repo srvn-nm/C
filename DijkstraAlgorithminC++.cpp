@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h/dos.h>
 using namespace std;
 #define INF 0x3f3f3f3f
  
@@ -81,5 +81,6 @@ int main()
  
     g.shortestPath(1);
  
+    delay(10000000);
     return 0;
 }
